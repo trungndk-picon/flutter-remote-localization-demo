@@ -1,0 +1,489 @@
+{
+    "@@locale": "ja",
+    "required": "{field}が必須項目です。",
+    "@required": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "validBankAccountName": "口座名義 は、全て半角・カナ・英字（大文字）・数字 で入力して下さい。",
+    "validBankAccountNumber": "口座番号は7桁の数字で入力してください。",
+    "cancel": "キャンセル",
+    "helper": "ヘルプ",
+    "withMoneyMark": "{data}円",
+    "@withMoneyMark": {
+        "placeholders": {
+            "data": {
+                "type": "String"
+            }
+        }
+    },
+    "withMoneyMarkNegative": "-{data}円",
+    "@withMoneyMarkNegative": {
+        "placeholders": {
+            "data": {
+                "type": "String"
+            }
+        }
+    },
+    "withMoneyMarkPositive": "+{data}円",
+    "@withMoneyMarkPositive": {
+        "placeholders": {
+            "data": {
+                "type": "String"
+            }
+        }
+    },
+    "yes": "はい",
+    "no": "キャンセル",
+    "confirm": "確定",
+    "back": "戻る",
+    "dateFormatMMMEd": "MMMd",
+    "alumni": "ALUMNI",
+    "pressBackAgainToExit": "もう一度押すとアップリが終了します。",
+    "ok": "OK",
+    "withPostalCodePrefix": "〒{data}",
+    "@withPostalCodePrefix": {
+        "placeholders": {
+            "data": {
+                "type": "String"
+            }
+        }
+    },
+    "seeAll": "全てを見る",
+    "otherSettings": "その他設定",
+    "pleaseEnter": "入力してください。",
+    "pleaseSelect": "選択してください",
+    "yearsInt": "{years}年間",
+    "@yearsInt": {
+        "placeholders": {
+            "years": {
+                "type": "int"
+            }
+        }
+    },
+    "months": "ヶ月",
+    "monthsInt": "{months}ヶ月",
+    "@monthsInt": {
+        "placeholders": {
+            "months": {
+                "type": "int"
+            }
+        }
+    },
+    "yearsMonths": "{years}年{months}ヶ月",
+    "@yearsMonths": {
+        "placeholders": {
+            "years": {
+                "type": "int"
+            },
+            "months": {
+                "type": "int"
+            }
+        }
+    },
+    "validateMessage": "{field}は必須です。",
+    "@validateMessage": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "openSettings": "設定を開く",
+    "requiredCameraPermissionMessage": "写真撮影やQRコードスキャンするには、エニジョブによるアクセス許可が必要です。",
+    "cameraPermissionRequired": "\"エニジョブ\"がカメラへのアクセスを求めています",
+    "requiredPhotosPermissionMessage": "写真をアップロードするには、エニジョブによるアクセス許可が必要です。",
+    "photosPermissionRequired": "”エニジョブ”が写真へのアクセスを求めています",
+    "uploadAnImage": "画像をアップロード",
+    "takeAPhoto": "写真を撮る",
+    "save": "保存",
+    "viewDetails": "詳細を見る",
+    "nMinutes": "{count, plural, =0{{count}分} =1{{count}分} other{{count}分}}",
+    "@nMinutes": {
+        "description": "議事録の複数メッセージ",
+        "placeholders": {
+            "count": {
+                "type": "num",
+                "format": "compact"
+            }
+        }
+    },
+    "hhmmFormat": "{hour}時間{minute}分",
+    "@hhmmFormat": {
+        "description": "hhmm format",
+        "placeholders": {
+            "hour": {
+                "type": "num"
+            },
+            "minute": {
+                "type": "num"
+            }
+        }
+    },
+    "timeFormatMMddHHmm": "MM月dd日 HH:mm",
+    "balanceUpdateNotice": "残高更新のお知らせ",
+    "yourBalanceHasBeenUpdatedPleaseDoubleCheckBeforeWithdrawing": "残高が更新されました。引き出し前に再度ご確認ください。",
+    "anyjob": "エニジョブ",
+    "welcome": "へようこそ",
+    "loginHeader": "エニジョブへようこそ",
+    "loginForgotPassword": "パスワードをお忘れですか？",
+    "privacyPolicy": "プライバシー",
+    "term": "利用規約",
+    "loginRemember": "自動ログイン",
+    "btnLogin": "ログイン",
+    "loginIdTitle": "メールアドレス",
+    "loginIdHint": "メールアドレスを入力してください。",
+    "loginPasswordTitle": "パスワード",
+    "loginPasswordHint": "パスワードを入力してください。",
+    "loginAskAccount": "アカウント登録は",
+    "loginRegisterNow": "こちら",
+    "registerHeader": "エニジョブへようこそ",
+    "registerName": "名前",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "registerNameHint": "名前を入力してください。",
+    "registerNameKana": "カナ名",
+    "registerNameKanaHint": "カナ名を入力してください。",
+    "registerPhone": "電話番号",
+    "registerPhoneHint": "電話番号を入力してください。",
+    "registerMail": "メールアドレス",
+    "registerMailHint": "メールアドレスを入力してください。",
+    "registerPassword": "パスワード",
+    "registerPasswordHint": "パスワードを入力してください。",
+    "btnRegister": "登録",
+    "errorTitle": "申し訳ありません！",
+    "commonErrorTitle": "申し訳ありません！",
+    "commonErrorContent": "不明なエラーが発生しました。もう一度試してください。",
+    "bottomDashboard": "ホーム",
+    "bottomSchedule": "マイワーク",
+    "bottomJobs": "公開ジョブ",
+    "bottomSettings": "設定",
+    "bottomMessenger": "通知",
+    "otpTitle": "OTP",
+    "otpHint": "OTPヒント!",
+    "next": "次へ",
+    "addressTitle": "住所",
+    "addressHint": "住所を入力",
+    "hobbieTitle": "趣味",
+    "hobbieHint": "趣味を入力",
+    "offerDetail": "オファー詳細",
+    "showDetail": "詳細を見る",
+    "calendarTitle": "スケジュール",
+    "offerForYou": "あなたのオファー",
+    "seeMore": "もっと見る",
+    "account": "アカウント",
+    "accountSecurity": "アカウントとセキュリティ",
+    "notification": "エニジョブからのお知らせ",
+    "language": "言語",
+    "changePassword": "パスワード変更",
+    "newPasswordTitle": "新しいパスワード",
+    "currentPassword": "既存パスワード",
+    "enterCurrentPassword": "既存パスワードを入力してください。",
+    "enterNewPassword": "新規パスワードを入力してください。",
+    "confirmNewPassword": "新しいパスワード（確認用）",
+    "update": "更新",
+    "changePhoto": "プロフィール写真を変更",
+    "saveChange": "参加",
+    "myKills": "自分のスキル",
+    "favoriteJob": "お気入り",
+    "addSkill": "スキルをもっと追加する",
+    "logOut": "ログアウト",
+    "loginByPhone": "電話番号",
+    "loginByMail": "メールアドレス",
+    "success": "成功",
+    "registerSuccessContent": "アカウント登録が成功しました。",
+    "currency": "日本円",
+    "minutes": "{duration}分",
+    "durationBreakTimeMinutes": "休憩{duration}分",
+    "nickName": "ニックネーム",
+    "updateProfileSuccess": "プロフィール更新が成功しました。",
+    "changePassSuccess": "パスワード変更が成功しました。",
+    "takePhoto": "写真を撮る",
+    "chooseFromGallery": "写真ギャラリーから選ぶ",
+    "noInformation": "公開中のジョブはありません。",
+    "errorJoinCorporation": "法人との連携はできません。",
+    "successJoinCorporation": "法人との連携が成功しました。",
+    "workingCondition": "労働条件に関する通知",
+    "listRecruitmentRequirement": "募集要項一覧",
+    "apply": "申し込む",
+    "jobHasBeenConfirm": "オファーが確定しました。",
+    "otpSuccess": "OTPの取得が成功しました。 携帯電話のSMSを確認してください。",
+    "emailValid": "メールアドレスが不正です。",
+    "passwordValid": "パスワードが不正です。",
+    "nameValid": "名前を入力してください。",
+    "nameKatakanaValid": "名前をカタカナで入力してください。",
+    "phoneValid": "電話番号が不正です。",
+    "otpValid": "OTP番号が不正です。",
+    "deleteContentDialog": "削除してもよろしいですか？",
+    "no2": "いいえ",
+    "delete": "削除",
+    "canNotSave": "保存できませんでした。",
+    "canNotSaveContent": "スキルを保存できません。",
+    "corpInvitationCode": "招待コード",
+    "corpInvitationQrcode": "QRコードスキャン",
+    "corpJoinButton": "企業と連携",
+    "breakTimeOut": "休憩開始",
+    "breakTimeIn": "休憩終了",
+    "attendance": "QRスキャンして出勤",
+    "checkInSuccessDescription": "お仕事開始！",
+    "checkInFailureDescription": "チェックインが失敗しました。もう一回試してください。",
+    "checkOutSuccessDescription": "勤務終了しました。\nお疲れ様でした。",
+    "checkOutFailureDescription": "チェックアウトが失敗しました。もう一回試してください。",
+    "emptyOffer": "現在、あなたへのオファーはありません。",
+    "taskPlan": "予定: {datetime}",
+    "@taskPlan": {
+        "placeholders": {
+            "datetime": {
+                "type": "String"
+            }
+        }
+    },
+    "taskActual": "実績: {datetime}",
+    "@taskActual": {
+        "placeholders": {
+            "datetime": {
+                "type": "String"
+            }
+        }
+    },
+    "taskBreakingTime": "休憩: {datetime}",
+    "@taskBreakingTime": {
+        "placeholders": {
+            "datetime": {
+                "type": "String"
+            }
+        }
+    },
+    "taskStatus": "状態: {status}",
+    "@taskStatus": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "seeMoreJobs": "他のオファーを見る",
+    "emptyNotification": "通知がありません。",
+    "qrScanJoinStore": "企業店舗と連携する",
+    "qrScanJoinStoreDescription": "QRコードをスキャンして企業店舗と連携する。",
+    "errorApplyOfferFully": "オファー応募が満了したため、お申込みいただけません。",
+    "settingDeactivate": "アカウント削除",
+    "deactivateConfirm": "アカウントを削除してもよろしいですか。",
+    "deactivateAccountSuccess": "アカウント削除が成功しました。",
+    "helpAndSupport": "ヘルプとサポート",
+    "report": "問題報告",
+    "reportSuccess": "問題をご報告いただきありがとうございます。",
+    "breakTimeOutSuccess": "休憩を開始しました。",
+    "breakTimeInSuccess": "休憩を終了しました。",
+    "startWork": "進行中",
+    "endWork": "勤務終了",
+    "imOnBreak": "休憩中",
+    "atWork": "進行中",
+    "btnGetOtp": "OTP取得",
+    "btnNewPassword": "送信",
+    "sendLinkResetPasswordSuccess": "あなたのパスワードはリセットされました。 登録メールをご確認ください。",
+    "resetPasswordSuccess": "あなたのパスワードはリセットされました。",
+    "yourCode": "あなたのコード",
+    "yourOtp": "OTP番号を入力してください。",
+    "inputPhoneHint": "電話番号を入力してください。",
+    "send": "送信",
+    "pleaseEnterName": "名前を入力してください。",
+    "pleaseEnterNameKana": "カナ名を入力してください。",
+    "pleaseEnterPhone": "電話番号を入力してください。",
+    "pleaseEnterEmail": "メールアドレスを入力してください。",
+    "pleaseEnterPassword": "パスワードを入力してください。",
+    "bottomMyPage": "マイページ",
+    "wage": "賃金",
+    "workingStatus": "勤務ステータス",
+    "detail": "詳細",
+    "startWorking": "チェックイン\n{time}",
+    "totalWorkingTime": "勤務時間合計",
+    "breakTime": "休憩時間",
+    "notYet": "開始待ち",
+    "offer": "オファー",
+    "work": "働く",
+    "history": "履歴",
+    "ownedCompany": "所属企業",
+    "specialOffer": "あなただけの特別なオファー",
+    "menu": "メニュー",
+    "btnEndWorking": "勤務終了",
+    "rewardConfirm": "報酬を確定",
+    "attendanceWorkingTitle": "勤務詳細",
+    "confirmFinishWork": "今すぐ終了してもよろしいですか?",
+    "requestEdit": "修正依頼",
+    "newOffer": "オファー",
+    "accordingToBusiness": "企業ごとに表示",
+    "nearestAddress": "自宅から近い順",
+    "highWage": "時給の高い順",
+    "nearestWorkingDay": "勤務日の近い順",
+    "close": "閉じる",
+    "today": "今日",
+    "yesterday": "昨日",
+    "yearMonthDayFormat": "yyyy年MM月dd日(EEE)",
+    "yearMonthDayWithoutDateOfWeekFormat": "yyyy年MM月dd日",
+    "yearMonthFormat": "yyyy年MM月",
+    "monthDayHourMinFormat": "MM月dd日(EEE) HH:mm",
+    "yearMonthDayHourMinFormat": "yyyy/MM/dd(EEE) HH:mm",
+    "hourMinFormat": "HH:mm",
+    "noBreakTime": "休憩なし",
+    "historyScreen": "勤務履歴",
+    "waitingApprove": "承認待",
+    "editing": "編集中",
+    "confirmed": "確定",
+    "seeResult": "結果を見る",
+    "paid": "支払い済み",
+    "finish": "終了",
+    "joinCompany": "企業と連携する",
+    "joinCorpSeeMoreOffer": "企業と連携してオファーを受けましょう！",
+    "setting": "設定",
+    "settingPersonalInformation": "個人情報",
+    "settingJoinCorporation": "企業と接続",
+    "settingFaq": "よくある質問",
+    "confirmLogout": "ログアウトしますか？",
+    "confirmDeactivate": "アカウントを削除しますか？",
+    "join": "参加",
+    "invitationCodeHeader": "企業招待コード",
+    "inputCodeHint": "招待コードを入力してください",
+    "inputYourReportHint": "報告内容を入力してください",
+    "joinCompanySuccess": "企業に参加しました。",
+    "myProfile": "プロフィール",
+    "userName": "氏名",
+    "kanaName": "氏名（フリガナ）",
+    "dateOfBirth": "生年月日",
+    "gender": "性別",
+    "address": "住所",
+    "email": "メールアドレス",
+    "seeRepresentativePhoto": "プロフィール写真を見る",
+    "chooseYourAvatar": "プロフィール写真を選択",
+    "passwordDoNotMatch": "パスワード（確認用）が一致しません",
+    "fromSystem": "システムから",
+    "system": "システム",
+    "fromStore": "店舗{store}から",
+    "@fromStore": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            }
+        }
+    },
+    "fromCompany": "会社{company}から",
+    "@fromCompany": {
+        "placeholders": {
+            "company": {
+                "type": "String"
+            }
+        }
+    },
+    "nextDay": "翌HH:mm",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "新しいパスワード（確認用）",
+    "pleaseEnterNewPassword": "新しいパスワードを入力してください",
+    "pleaseReEnterNewPassword": "新しいパスワードを再度入力してください",
+    "workHistoryIsEmpty": "勤務履歴がありません",
+    "postalCodeTitle": "郵便番号",
+    "prefecturesTitle": "都道府県",
+    "cityTitle": "市区町村",
+    "townTitle": "町域",
+    "postalCodeError": "入力した郵便番号が不正です。",
+    "pickerTheGender": "性別を選択してください。",
+    "done": "OK",
+    "maleGender": "男性",
+    "femaleGender": "女性",
+    "otherGender": "その他",
+    "notUpdate": "未設定",
+    "didNotSelectBirthdayError": "生年月日を選択してください。",
+    "postalCodeNotAvailableError": "有効な郵便番号を入力してください。",
+    "skip": "スキップ",
+    "newVersionTitle": "バージョンアップデート",
+    "newVersionOptionalMessage": "新しい機能を利用するためにアプリの最新バージョンにアップデートしてください",
+    "newVersionForcedMessage": "続行するためにアプリの最新バージョンにアップデートしてください",
+    "returnToLoginScreen": "ログイン画面に戻る",
+    "validatePasswordNotMatch": "入力したパスワードが一致しません。",
+    "validatePasswordLeast8Chars": "パスワードは8桁以上入力してください。",
+    "hasNewOffer": "新規オファー",
+    "selectTimeTitle": "勤務時間選択",
+    "selectDateTimeTitle": "勤務日時選択",
+    "attendanceEditing": "勤務時間編集",
+    "requestEditEnterYourReason": "理由を入力してください。",
+    "requestEditReasonForYourRequest": "リクエストの理由",
+    "requestEditBeforeFixed": "修正前",
+    "requestEditFixed": "確定",
+    "requestEditStartWorking": "開始時間",
+    "requestEditEndWorking": "終了時間",
+    "requestEditSuccessMessage": "修正依頼が成功しました。承認をお待ちください！",
+    "requestPayment": "支払いリクエスト",
+    "retry": "リトライ",
+    "recipientManagement": "振込口座管理",
+    "checkoutSuccess": "お仕事終了！\nお疲れ様でした。",
+    "sessionHasExpired": "セッションの有効期限が切れました、再度ログインしてください。",
+    "message": "メッセージ",
+    "commonErrorContentMultipleLines": "不明なエラーが発生しました。\nもう一度試してください。",
+    "update2": "更新する",
+    "announcementDetails": "お知らせ詳細",
+    "common404ErrorMessage": "情報が見つかりません。",
+    "yyyyMMddEEEDateFormat": "yyyy/MM/dd (EEE)",
+    "yyyyMMddHHmmDateTimeFormat": "yyyy/MM/dd(EEE) HH:mm",
+    "mmddDateTimeFormat": "MM月dd日",
+    "mmddEEEDateTimeFormat": "MM月dd日(EEE)",
+    "pageNotFound": "ページが見つかりません",
+    "sendContactSupport": "問題報告",
+    "companyJoiningResult": "企業参加結果",
+    "currentPasswordHint": "既存パスワード",
+    "newPasswordHint": "新しいパスワード",
+    "confirmNewPasswordHint": "新しいパスワード（確認用）",
+    "welcomeToAnyJob": "エニジョブへようこそ",
+    "@welcomeToAnyJob": {},
+    "pleaseEnterYourFirstName": "入力してください。",
+    "pleaseEnterYourLastName": "入力してください。",
+    "yyyyMMddSlash": "yyyy/MM/dd",
+    "yyyyMMddSlashHHmm": "yyyy/MM/dd(EEE) HH:mm",
+    "emailOrPasswordAreIncorrect": "メールアドレスまたはパスワードが正しくありません。",
+    "yourAccountHasAlreadyBeenDeactivated": "貴方のアカウントは既に非アクティブ化されています。",
+    "yourSessionHasExpiredPleaseRetry": "セッションの有効期限が切れました、再度ログインしてください。",
+    "thePhoneNumberIsInvalidPleaseEnterAValidPhoneNumber": "電話番号が不正です。正しい電話番号を入力してください。",
+    "invalidOtpEntered": "OTP番号が不正です。",
+    "yyyyMMddEEEHHmmSlashDateTimeFormat": "yyyy/MM/dd(EEE) HH:mm",
+    "welcomeToAnyjob": "エニジョブへようこそ！",
+    "welcomMessage": "エニジョブは、企業から貴方へのオファーを受け取ることができるプラットフォームです。\n\nオファーには、スポットバイトから正社員まで様々な種類があり、今の貴方に最適な選択をすることができます。\n\nまずは企業に接続し最適なオファーを探そう！",
+    "startNow": "企業と接続",
+    "filteredBy": "条件:",
+    "company": "企業別に表示",
+    "workingDay": "勤務日が近い",
+    "highestWage": "時給が高い",
+    "commas": "、",
+    "acceptPopButtonTitle": "解除する",
+    "hourlyWage": "時給",
+    "fixedSalary": "固定給与",
+    "hourlyWageWithMark": "時給{salary}円",
+    "@hourlyWageWithMark": {
+        "placeholders": {
+            "salary": {
+                "type": "String"
+            }
+        }
+    },
+    "fixedSalaryWithMark": "固定給 {salary}円",
+    "@fixedSalaryWithMark": {
+        "placeholders": {
+            "salary": {
+                "type": "String"
+            }
+        }
+    },
+    "timeRange": "{startTime} 〜 {endTime}",
+    "@timeRange": {
+        "placeholders": {
+            "startTime": {
+                "type": "String"
+            },
+            "endTime": {
+                "type": "String"
+            }
+        }
+    },
+    "tildeSign": "〜",
+    "cancellationConfirmation": "応募キャンセル",
+    "areYouSureYouWantToCancelApplyingForThisOffer": "このオファーの応募をキャンセルしてもよろしいですか？"
+}

@@ -1,0 +1,527 @@
+{
+    "@@locale": "en",
+    "required": "{field} is required.",
+    "@required": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "validBankAccountName": "Please enter uppercase letters, half-width Japanese characters, or numbers.",
+    "validBankAccountNumber": "Please enter your bank account number as a 7-digit number.",
+    "cancel": "Cancel",
+    "helper": "Helper",
+    "withMoneyMark": "{data} JPY",
+    "@withMoneyMark": {
+        "placeholders": {
+            "data": {
+                "type": "String"
+            }
+        }
+    },
+    "withMoneyMarkNegative": "-{data} JPY",
+    "@withMoneyMarkNegative": {
+        "placeholders": {
+            "data": {
+                "type": "String"
+            }
+        }
+    },
+    "withMoneyMarkPositive": "+{data} JPY",
+    "@withMoneyMarkPositive": {
+        "placeholders": {
+            "data": {
+                "type": "String"
+            }
+        }
+    },
+    "no": "Cancel",
+    "confirm": "Confirm",
+    "dateFormatMMMEd": "MMMd",
+    "alumni": "ALUMNI",
+    "pressBackAgainToExit": "Press back again to exit.",
+    "withPostalCodePrefix": "〒{data}",
+    "@withPostalCodePrefix": {
+        "placeholders": {
+            "data": {
+                "type": "String"
+            }
+        }
+    },
+    "seeMore": "See more",
+    "seeAll": "View all",
+    "otherSettings": "Account & Support",
+    "pleaseEnter": "Please enter",
+    "pleaseSelect": "Please select",
+    "yearsInt": "{years} years",
+    "@yearsInt": {
+        "placeholders": {
+            "years": {
+                "type": "int"
+            }
+        }
+    },
+    "months": "months",
+    "monthsInt": "{months} months",
+    "@monthsInt": {
+        "placeholders": {
+            "months": {
+                "type": "int"
+            }
+        }
+    },
+    "yearsMonths": "{years} years {months} months",
+    "@yearsMonths": {
+        "placeholders": {
+            "years": {
+                "type": "int"
+            },
+            "months": {
+                "type": "int"
+            }
+        }
+    },
+    "validateMessage": "{field} is required",
+    "@validateMessage": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "openSettings": "Open Settings",
+    "requiredCameraPermissionMessage": "Permission is required by ANYJOB to take photos and scan QR codes.",
+    "cameraPermissionRequired": "\"ANYJOB\" Would Like to Access the Camera",
+    "requiredPhotosPermissionMessage": "You need permission from AnyJob to upload photos.",
+    "photosPermissionRequired": "\"ANYJOB\" Would Like to Access Your Photos",
+    "uploadAnImage": "Upload an image",
+    "takeAPhoto": "Take a photo",
+    "viewDetails": "View Details",
+    "nMinutes": "{count, plural, =0{{count} minute} =1{{count} minute} other{{count} minutes}}",
+    "@nMinutes": {
+        "description": "A plural message for minutes",
+        "placeholders": {
+            "count": {
+                "type": "num",
+                "format": "compact"
+            }
+        }
+    },
+    "hhmmFormat": "{hour}h{minute}m",
+    "@hhmmFormat": {
+        "description": "hhmm format",
+        "placeholders": {
+            "hour": {
+                "type": "num"
+            },
+            "minute": {
+                "type": "num"
+            }
+        }
+    },
+    "timeFormatMMddHHmm": "MM/dd HH:mm",
+    "balanceUpdateNotice": "Balance update notice",
+    "yourBalanceHasBeenUpdatedPleaseDoubleCheckBeforeWithdrawing": "Your balance has been updated. Please double check before withdrawing.",
+    "anyjob": "ANYJOB",
+    "welcome": "welcome to",
+    "loginHeader": "Welcome to ANYJOB !",
+    "loginForgotPassword": "Forgot your password?",
+    "privacyPolicy": "Privacy Policy",
+    "term": "Term of Services",
+    "loginRemember": "automatic login",
+    "btnLogin": "Login",
+    "loginIdTitle": "Email Address",
+    "loginIdHint": "Please enter your email address.",
+    "loginPasswordTitle": "Password",
+    "loginPasswordHint": "Please enter your password.",
+    "loginAskAccount": "Account registration",
+    "loginRegisterNow": "here",
+    "registerHeader": "Welcome to ANYJOB !",
+    "registerName": "name",
+    "forgotPassword": "Forgot your password?",
+    "registerNameHint": "Please enter your name.",
+    "registerNameKana": "Katakana name",
+    "registerNameKanaHint": "Please enter a Katakana name.",
+    "registerPhone": "Phone Number",
+    "registerPhoneHint": "Please enter your phone number.",
+    "registerMail": "Email Address",
+    "registerMailHint": "Please enter your email address",
+    "registerPassword": "password",
+    "registerPasswordHint": "Please enter your password.",
+    "btnRegister": "Register",
+    "back": "Back",
+    "errorTitle": "Sorry!",
+    "commonErrorTitle": "Sorry!",
+    "commonErrorContent": "An unknown error occurred. Please retry.",
+    "bottomDashboard": "Home",
+    "bottomSchedule": "My Work",
+    "bottomJobs": "public job",
+    "bottomSettings": "Settings",
+    "bottomMessenger": "Notification",
+    "otpTitle": "OTP",
+    "otpHint": "OTP hint!",
+    "next": "Next",
+    "addressTitle": "Address",
+    "addressHint": "Enter an address",
+    "hobbieTitle": "hobby",
+    "hobbieHint": "Enter your hobby",
+    "offerDetail": "Offer Details",
+    "showDetail": "View details",
+    "calendarTitle": "Schedule",
+    "offerForYou": "My Offer",
+    "account": "Account",
+    "accountSecurity": "Address",
+    "notification": "Notice from Anyjob",
+    "language": "Language",
+    "changePassword": "Change Password",
+    "newPasswordTitle": "New Password",
+    "currentPassword": "Existing Password",
+    "enterCurrentPassword": "Please enter your current password.",
+    "enterNewPassword": "Please enter your new password.",
+    "confirmNewPassword": "Confirm Password",
+    "update": "Update",
+    "changePhoto": "Change Profile Picture",
+    "saveChange": "Participate",
+    "myKills": "My Skills",
+    "favoriteJob": "favorite",
+    "addSkill": "Add Skills",
+    "save": "Save",
+    "logOut": "Logout",
+    "loginByPhone": "Phone Number",
+    "loginByMail": "Email address",
+    "success": "Success",
+    "registerSuccessContent": "Account creation was successful.",
+    "currency": "JPY",
+    "minutes": "{duration} minutes",
+    "@minutes": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "durationBreakTimeMinutes": "Break {duration} minutes",
+    "@durationBreakTimeMinutes": {
+        "placeholders": {
+            "duration": {
+                "type": "String"
+            }
+        }
+    },
+    "nickName": "nickname",
+    "updateProfileSuccess": "Your personal information has been updated successfully.",
+    "changePassSuccess": "Your password has been changed successfully.",
+    "takePhoto": "take a photo",
+    "chooseFromGallery": "Choose from photo gallery",
+    "noInformation": "There are no published jobs.",
+    "errorJoinCorporation": "Company joining is not viable.",
+    "successJoinCorporation": "Join new company successfully.",
+    "workingCondition": "Notice regarding working conditions",
+    "listRecruitmentRequirement": "List of recruitment requirements",
+    "apply": "Apply",
+    "jobHasBeenConfirm": "Application successful! You’re all set to start your work.",
+    "otpSuccess": "OTP is sent to your phone number.",
+    "emailValid": "Email address is invalid.",
+    "passwordValid": "Password is invalid.",
+    "nameValid": "Please enter your name.",
+    "nameKatakanaValid": "Please enter your name in katakana.",
+    "phoneValid": "The phone number is invalid.",
+    "otpValid": "Invalid OTP entered.",
+    "deleteContentDialog": "Are you sure you want to delete this?",
+    "yes": "Yes",
+    "no2": "No",
+    "delete": "Delete",
+    "canNotSave": "Could not save changes.",
+    "canNotSaveContent": "Skill could not be saved.",
+    "corpInvitationCode": "Invitation code",
+    "corpInvitationQrcode": "QR code scan",
+    "corpJoinButton": "Collaborate with companies",
+    "breakTimeOut": "Start Break",
+    "breakTimeIn": "End Break",
+    "attendance": "Check In",
+    "checkInSuccessDescription": "The work starts now!",
+    "checkInFailureDescription": "Check-in was unsuccessful. Please retry.",
+    "checkOutSuccessDescription": "I have finished working.\n",
+    "checkOutFailureDescription": "Check-out was unsuccessful. Please retry.",
+    "emptyOffer": "No offers available just yet, check back soon!",
+    "taskPlan": "Schedule: {datetime}",
+    "@taskPlan": {
+        "placeholders": {
+            "datetime": {
+                "type": "String"
+            }
+        }
+    },
+    "taskActual": "Actual: {datetime}",
+    "@taskActual": {
+        "placeholders": {
+            "datetime": {
+                "type": "String"
+            }
+        }
+    },
+    "taskBreakingTime": "Break: {datetime}",
+    "@taskBreakingTime": {
+        "placeholders": {
+            "datetime": {
+                "type": "String"
+            }
+        }
+    },
+    "taskStatus": "Status: {status}",
+    "@taskStatus": {
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+    "seeMoreJobs": "See other offers",
+    "emptyNotification": "There are no notifications.",
+    "qrScanJoinStore": "Collaborate with corporate stores",
+    "qrScanJoinStoreDescription": "Scan the QR code to the Store.",
+    "errorApplyOfferFully": "The application period for this offer has expired.",
+    "settingDeactivate": "Delete Account",
+    "deactivateConfirm": "Are you sure you want to delete your account?",
+    "deactivateAccountSuccess": "Account deletion was successful.",
+    "helpAndSupport": "Help & Support",
+    "report": "Contact Support",
+    "reportSuccess": "Thank you for contacting us. We'll get back to you soon.",
+    "breakTimeOutSuccess": "I started taking a break.",
+    "breakTimeInSuccess": "The break has ended.",
+    "startWork": "In Progress",
+    "endWork": "End of work",
+    "imOnBreak": "Taking a break",
+    "atWork": "In Progress",
+    "btnGetOtp": "Get OTP",
+    "btnNewPassword": "Send",
+    "sendLinkResetPasswordSuccess": "Your password has been reset. ",
+    "resetPasswordSuccess": "Your password has been reset.",
+    "yourCode": "Your code",
+    "yourOtp": "Please enter your OTP number.",
+    "inputPhoneHint": "Please enter your phone number.",
+    "send": "Send",
+    "pleaseEnterName": "Please enter your name.",
+    "pleaseEnterNameKana": "Please enter a kana name.",
+    "pleaseEnterPhone": "Please enter your phone number.",
+    "pleaseEnterEmail": "Please enter your email address.",
+    "pleaseEnterPassword": "Please enter your password.",
+    "ok": "OK",
+    "bottomMyPage": "My Page",
+    "wage": "Wages",
+    "workingStatus": "work status",
+    "detail": "Details",
+    "totalWorkingTime": "Total Working Hours",
+    "breakTime": "Breaktime",
+    "notYet": "Not Started",
+    "offer": "Offers",
+    "work": "work",
+    "history": "History",
+    "ownedCompany": "Joined Companies",
+    "specialOffer": "A special offer just for you",
+    "menu": "Menu",
+    "btnEndWorking": "End of work",
+    "rewardConfirm": "Confirm Reward",
+    "attendanceWorkingTitle": "Work Details",
+    "confirmFinishWork": "Are you sure you want to exit now?",
+    "requestEdit": "Finalize",
+    "newOffer": "Offer",
+    "accordingToBusiness": "View by Company",
+    "nearestAddress": "Nearest Location",
+    "highWage": "Highest Hourly Wage",
+    "nearestWorkingDay": "Closest Working Day",
+    "close": "Close",
+    "today": "today",
+    "yesterday": "yesterday",
+    "yearMonthDayFormat": "yyyy/MM/dd (EEE)",
+    "yearMonthDayWithoutDateOfWeekFormat": "yyyy/MM/dd",
+    "yearMonthFormat": "yyyy/MM",
+    "monthDayHourMinFormat": "MM/dd (EEE) HH:mm",
+    "yearMonthDayHourMinFormat": "yyyy/MM/dd(EEE) HH:mm",
+    "hourMinFormat": "HH:mm",
+    "noBreakTime": "Without Breaks",
+    "historyScreen": "Work History",
+    "waitingApprove": "Waiting for approval",
+    "editing": "Editing",
+    "confirmed": "Confirm",
+    "seeResult": "See results",
+    "paid": "paid",
+    "finish": "end",
+    "joinCompany": "Join New Company",
+    "joinCorpSeeMoreOffer": "Let's join company and apply offers!",
+    "setting": "Settings",
+    "settingPersonalInformation": "Personal Information",
+    "settingJoinCorporation": "Join Company",
+    "settingFaq": "FAQ",
+    "confirmLogout": "Are you sure you want to log out?",
+    "confirmDeactivate": "Are you sure you want to delete your account ?",
+    "join": "Participation",
+    "invitationCodeHeader": "Company Invitation code",
+    "inputCodeHint": "Enter code",
+    "inputYourReportHint": "Please enter the details",
+    "joinCompanySuccess": "Join new company successfully.",
+    "myProfile": "Profile",
+    "userName": "Full Name",
+    "kanaName": "Name (Furigana)",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Sex",
+    "address": "Address",
+    "email": "Email address",
+    "seeRepresentativePhoto": "View profile picture",
+    "chooseYourAvatar": "Select profile picture",
+    "passwordDoNotMatch": "Passwords do not match.",
+    "fromSystem": "from the system",
+    "system": "system",
+    "fromStore": "From store {store}",
+    "@fromStore": {
+        "placeholders": {
+            "store": {
+                "type": "String"
+            }
+        }
+    },
+    "fromCompany": "From company {company}",
+    "@fromCompany": {
+        "placeholders": {
+            "company": {
+                "type": "String"
+            }
+        }
+    },
+    "nextDay": "Next HH:mm",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "pleaseEnterNewPassword": "Please enter new password.",
+    "pleaseReEnterNewPassword": "Please confirm your new password.",
+    "workHistoryIsEmpty": "There is currently no working history.",
+    "postalCodeTitle": "post code",
+    "prefecturesTitle": "prefectures",
+    "cityTitle": "Municipality",
+    "townTitle": "Area",
+    "postalCodeError": "The postal code you entered is invalid.",
+    "pickerTheGender": "Please select your gender.",
+    "done": "OK",
+    "maleGender": "Male",
+    "femaleGender": "Female",
+    "otherGender": "Others",
+    "notUpdate": "Not set",
+    "didNotSelectBirthdayError": "Please select your date of birth.",
+    "postalCodeNotAvailableError": "Please enter a valid postal code.",
+    "skip": "skip",
+    "newVersionTitle": "Version update",
+    "newVersionOptionalMessage": "Please update the app to the lastest version to continue.",
+    "newVersionForcedMessage": "Please update the app to the lastest version to continue.",
+    "returnToLoginScreen": "Return to Login screen",
+    "validatePasswordNotMatch": "Passwords do not match.",
+    "validatePasswordLeast8Chars": "Please enter a password of 8 or more digits.",
+    "hasNewOffer": "New Offer",
+    "selectTimeTitle": "Select working time",
+    "selectDateTimeTitle": "Select working datetime",
+    "attendanceEditing": "Edit Working Hours",
+    "requestEditEnterYourReason": "Please state your reason for this.",
+    "requestEditReasonForYourRequest": "Reason for this request",
+    "requestEditBeforeFixed": "Before Editing",
+    "requestEditFixed": "Confirmed",
+    "requestEditStartWorking": "Start Time",
+    "requestEditEndWorking": "End Time",
+    "requestEditSuccessMessage": "Your correction request has been sent to the manager. Please wait for the approval.",
+    "requestPayment": "payment request",
+    "retry": "retry",
+    "recipientManagement": "Bank Account Management",
+    "checkoutSuccess": "The work is finished!\nWell done!",
+    "sessionHasExpired": "Your session has expired, please log in again.",
+    "message": "Message",
+    "commonErrorContentMultipleLines": "An unknown error occurred. Please retry.",
+    "update2": "Update",
+    "announcementDetails": "Notification Details",
+    "common404ErrorMessage": "Model not found",
+    "yyyyMMddEEEDateFormat": "yyyy/MM/dd (EEE)",
+    "yyyyMMddHHmmDateTimeFormat": "yyyy/MM/dd(EEE) HH:mm",
+    "mmddDateTimeFormat": "MM/dd",
+    "mmddEEEDateTimeFormat": "MM/dd(EEE)",
+    "pageNotFound": "Page not found!",
+    "@pageNotFound": {},
+    "sendContactSupport": "Send",
+    "@sendContactSupport": {},
+    "companyJoiningResult": "Company Joining Result",
+    "@companyJoiningResult": {},
+    "currentPasswordHint": "Enter existing password",
+    "@currentPasswordHint": {},
+    "newPasswordHint": "Enter new password",
+    "@newPasswordHint": {},
+    "confirmNewPasswordHint": "Confirm new password",
+    "@confirmNewPasswordHint": {},
+    "welcomeToAnyJob": "Welcome to ANYJOB",
+    "@welcomeToAnyJob": {},
+    "pleaseEnterYourFirstName": "Please enter your first name.",
+    "@pleaseEnterYourFirstName": {},
+    "pleaseEnterYourLastName": "Please enter your last name.",
+    "@pleaseEnterYourLastName": {},
+    "yyyyMMddSlash": "yyyy/MM/dd",
+    "yyyyMMddSlashHHmm": "yyyy/MM/dd HH:mm",
+    "emailOrPasswordAreIncorrect": "Email or password are incorrect",
+    "yourAccountHasAlreadyBeenDeactivated": "Your account has already been deactivated.",
+    "yourSessionHasExpiredPleaseRetry": "Your session has expired, please retry",
+    "thePhoneNumberIsInvalidPleaseEnterAValidPhoneNumber": "The phone number is invalid. Please enter a valid phone number.",
+    "invalidOtpEntered": "Invalid OTP entered",
+    "yyyyMMddEEEHHmmSlashDateTimeFormat": "yyyy/MM/dd(EEE) HH:mm",
+    "@yyyyMMddEEEHHmmSlashDateTimeFormat": {},
+    "welcomeToAnyjob": "Welcome to ANYJOB!",
+    "@welcomeToAnyjob": {},
+    "welcomMessage": "ANYJOB is a platform that connects you with company offers tailored to your needs.\n\nUnlock opportunities ranging from part-time jobs to internships and full-time careers.\n\nLet's take the opportunity that fits your goal!",
+    "@welcomMessage": {},
+    "startNow": "Start Now",
+    "@startNow": {},
+    "filteredBy": "Filtered by:",
+    "@filteredBy": {},
+    "company": "Company",
+    "@company": {},
+    "workingDay": "Working Day",
+    "@workingDay": {},
+    "highestWage": "Highest wage",
+    "@highestWage": {},
+    "commas": ", ",
+    "@commas": {},
+    "acceptPopButtonTitle": "Yes",
+    "@acceptPopButtonTitle": {
+        "description": "Accept pop button title"
+    },
+    "hourlyWage": "Hourly Wage",
+    "@hourlyWage": {},
+    "fixedSalary": "Fixed Salary",
+    "@fixedSalary": {},
+    "hourlyWageWithMark": "Hourly Wage {salary} JPY",
+    "@hourlyWageWithMark": {
+        "placeholders": {
+            "salary": {
+                "type": "String"
+            }
+        }
+    },
+    "fixedSalaryWithMark": "Fixed salary {salary} JPY",
+    "@fixedSalaryWithMark": {
+        "placeholders": {
+            "salary": {
+                "type": "String"
+            }
+        }
+    },
+    "timeRange": "{startTime} 〜 {endTime}",
+    "@timeRange": {
+        "placeholders": {
+            "startTime": {
+                "type": "String"
+            },
+            "endTime": {
+                "type": "String"
+            }
+        }
+    },
+    "tildeSign": "〜",
+    "@tildeSign": {},
+    "cancellationConfirmation": "Cancel Application",
+    "@cancellationConfirmation": {},
+    "areYouSureYouWantToCancelApplyingForThisOffer": "Are you sure you want to cancel applying for this offer?",
+    "@areYouSureYouWantToCancelApplyingForThisOffer": {}
+}
